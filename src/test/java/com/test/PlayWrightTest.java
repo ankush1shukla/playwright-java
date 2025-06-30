@@ -65,7 +65,7 @@ public class PlayWrightTest {
 	public void testPlaywrightHomepage() {
 		page.navigate("https://playwright.dev");
 		String title = page.title();
-		System.out.println("Page title: " + title);
+		System.out.println("Page title is : " + title);
 		assertTrue(title.contains("Playwright"));
 	}
 	
