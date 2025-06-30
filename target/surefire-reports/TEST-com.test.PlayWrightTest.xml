@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.test.PlayWrightTest" time="4.535" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven/boot/plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.test.PlayWrightTest#testPlaywrightHomepage -Dmaven.ext.class.path=/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar --no-transfer-progress process-test-classes surefire:test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven"/>
+    <property name="test" value="com.test.PlayWrightTest#testPlaywrightHomepage"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ankush"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="ankush"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-60-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="/home/ankush/Downloads/playwright-Java-master/playwright-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ankush/Downloads/playwright-Java-master/playwright-java"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/tmp/.mount_cursorLEFSS3/usr/lib/:/tmp/.mount_cursorLEFSS3/usr/lib32/:/tmp/.mount_cursorLEFSS3/usr/lib64/:/tmp/.mount_cursorLEFSS3/lib/:/tmp/.mount_cursorLEFSS3/lib/i386-linux-gnu/:/tmp/.mount_cursorLEFSS3/lib/x86_64-linux-gnu/:/tmp/.mount_cursorLEFSS3/lib/aarch64-linux-gnu/:/tmp/.mount_cursorLEFSS3/lib32/:/tmp/.mount_cursorLEFSS3/lib64/::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.15+6-Ubuntu-0ubuntu122.04"/>
+    <property name="classworlds.conf" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven/bin/m2.conf"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="/home/ankush/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven/lib/jansi-native"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPlaywrightHomepage" classname="com.test.PlayWrightTest" time="2.805"/>
+</testsuite>

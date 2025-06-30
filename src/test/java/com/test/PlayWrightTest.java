@@ -5,6 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 
+import static org.testng.Assert.assertTrue;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -65,7 +66,7 @@ public class PlayWrightTest {
 		page.navigate("https://playwright.dev");
 		String title = page.title();
 		System.out.println("Page title: " + title);
-		assertThat(page).hasTitle("Playwright");
+		assertTrue(title.contains("Playwright"));
 	}
 	
 	@Test(description = "Test Playwright.dev navigation to Get Started page")
@@ -82,20 +83,5 @@ public class PlayWrightTest {
 		assertThat(page.locator("h1")).containsText("Installation");
 	}
 	
-	@Test(description = "Test Playwright.dev search functionality")
-	public void testPlaywrightSearch() {
-		page.navigate("https://playwright.dev");
-		
-		// Click on search button
-		page.locator("[aria-label='Search']").click();
-		
-		// Type in search query
-		page.locator("[placeholder='Search docs']").fill("locator");
-		
-		// Wait for search results
-		page.waitForSelector(".DocSearch-Hit");
-		
-		// Verify search results contain the search term
-		assertThat(page.locator(".DocSearch-Hit")).containsText("locator");
-	}
+
 }

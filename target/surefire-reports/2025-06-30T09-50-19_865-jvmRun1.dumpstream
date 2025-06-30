@@ -1,0 +1,130 @@
+# Created on 2025-06-30T09:50:27.029
+Corrupted stdin stream in forked JVM 1. Stream 'Downloading Webkit 16.0 (playwright build v1724)...'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Downloading Webkit 16.0 (playwright build v1724)...'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:27.362
+Corrupted stdin stream in forked JVM 1. Stream '|                                                                                |   0% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|                                                                                |   0% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:30.430
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■                                                                        |  10% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■                                                                        |  10% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:35.176
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■                                                                |  20% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■                                                                |  20% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:40.255
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:46.162
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:50.549
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:50:57.235
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:51:03.604
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:51:07.138
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:51:14.779
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:51:19.376
+Corrupted stdin stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 86.6 Mb'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 86.6 Mb'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created on 2025-06-30T09:51:20.643
+Corrupted stdin stream in forked JVM 1. Stream 'Webkit 16.0 (playwright build v1724) downloaded to /home/ankush/.cache/ms-playwright/webkit-1724'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Webkit 16.0 (playwright build v1724) downloaded to /home/ankush/.cache/ms-playwright/webkit-1724'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:469)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:191)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:158)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:87)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
