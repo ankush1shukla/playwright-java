@@ -1,56 +1,37 @@
-name: PlayWright Tests
+name: Java Playwright Automation
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
-  test:
+  run-tests:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up JDK 11
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Java
       uses: actions/setup-java@v3
       with:
-        java-version: '11'
+        java-version: '17'
         distribution: 'temurin'
-        cache: maven
-    
-    - name: Install PlayWright browsers
-      run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install chromium"
-    
-    - name: Create videos directory
-      run: mkdir -p videos
-    
-    - name: Run PlayWright tests
-      run: mvn test -DsuiteXmlFile=testng-playwright.xml -Dheadless=true
-      env:
-        DISPLAY: :99
-      
-    - name: Upload test videos
-      uses: actions/upload-artifact@v3
-      if: always()
+
+    - name: Cache Maven packages
+      uses: actions/cache@v3
       with:
-        name: test-videos
-        path: videos/
-        retention-days: 7
-        
-    - name: Upload test reports
-      uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: test-reports
-        path: target/surefire-reports/
-        retention-days: 7
-        
-    - name: Upload Maven logs
-      uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: maven-logs
-        path: target/
-        retention-days: 7 
+        path: ~/.m2
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-maven
+
+    - name: Install Playwright dependencies
+      run: npx playwright install-deps
+
+    - name: Build Project
+      run: mvn clean install -DskipTests
+
+    - name: Run Playwright Tests
+      run: mvn test
