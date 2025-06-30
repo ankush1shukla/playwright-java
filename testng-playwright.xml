@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PlayWright Test Suite">
+  <test name="PlayWright Tests">
+    <classes>
+      <class name="com.test.PlayWrightTest"/>
+    </classes>
+  </test>
+</suite> 
