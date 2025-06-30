@@ -81,6 +81,7 @@ public class PlayWrightTest {
 		
 		// Verify page contains expected content
 		assertThat(page.locator("h1")).containsText("Installation");
+		
 	}
 	
 

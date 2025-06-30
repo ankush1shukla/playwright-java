@@ -1,0 +1,1 @@
+{"uuid":"0d7aab8b-1e9d-4cbd-9f52-c8e9142b762c","name":"com.test.PlayWrightTest.setUp","children":["77f19835-a590-40fa-a749-0378f03f51de"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1751259384582,"stop":1751259385686}],"afters":[],"start":1751259384582,"stop":1751259385686}
